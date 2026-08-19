@@ -26,7 +26,7 @@ const CARDAPIO = [
     descricao: "Massa aerada com chocolate ao leite e muita Nutella (Aprox. 30g Nutella, 90g Massa).",
     preco: 15.50,
     estoque: 01,
-    disponivel: true
+    disponivel: false
   },
 
   {
