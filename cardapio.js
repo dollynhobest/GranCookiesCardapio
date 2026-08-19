@@ -17,7 +17,7 @@ const CARDAPIO = [
     descricao: "Massa especial com chocolate branco e ao leite, recheado com creme de avelã branco artesanal e finalizada com pedaço de Kinder Bueno (aprox. 100g Massa e 30g Creme de Avelã)",
     preco: 18.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -26,7 +26,7 @@ const CARDAPIO = [
     descricao: "Massa aerada com chocolate ao leite e muita Nutella (Aprox. 30g Nutella, 90g Massa).",
     preco: 15.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -35,7 +35,7 @@ const CARDAPIO = [
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
   
   {
@@ -44,7 +44,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate blend Nestlé, recheado com muita pasta de KitKat e finalizada com um pedaço de KitKat (aprox. 130g, 90g de massa, 30g de Pasta Profissional, 10g de pedaços de KitKat)",
     preco: 15.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -53,7 +53,7 @@ const CARDAPIO = [
     descricao: "Massa especial com chocolate em pó e cacau black, com chocolates blend e branco Nestlé, recheado com uma ganache artesanal de coco (aprox. 110g, 90g de massa especial e 20g de ganache)",
     preco: 14.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -62,7 +62,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -71,7 +71,7 @@ const CARDAPIO = [
     descricao: "Massa especial de chocolate em pó e cacau black com pedaços de chocolate Alpino, recheada com Blend de chocolates nobre branco e ao leite (aprox. 120g, 90g de massa, 30g de chocolates branco e ao leite)",
     preco: 15.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -80,7 +80,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate ao leite e recheio de paçoca com nutella (aprox. 120g, 90g de massa, 30g de paçoca com nutella)",
     preco: 15.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -89,7 +89,7 @@ const CARDAPIO = [
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -98,7 +98,7 @@ const CARDAPIO = [
     descricao: "Massa especial com chocolate branco e canela, recheada com doce de leite (aprox. 20g de doce de leite, 90g massa)",
     preco: 13.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -107,7 +107,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate branco e grãos de pistache, recheada com ganache artesanal de pistache (aprox. 20g de ganache, 90g de massa)",
     preco: 17.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -161,7 +161,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate nobre ao leite e pedaços de bolacha Oreo, recheado com uma ganache de baunilha e chocolate branco (aprox. 110g)",
     preco: 14.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
     
   {
@@ -170,7 +170,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolates branco e ao leite e pedaços de bacon gourmet (aprox. 105g)",
     preco: 13.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
   },
     
   {
@@ -179,7 +179,7 @@ const CARDAPIO = [
     descricao: "Massa especial com manteiga clarificada e com chocolate branco, recheado com creme de Biscoito Lotus e ganache de caramelo e finalizado com um biscoito Lotus (Aprox. 90g de massa, 10g de creme de Biscoito Lotus, 10g de ganache de caramelo)",
     preco: 15.50,
     estoque: 10,
-    disponivel: true
+    disponivel: false
  },
     
   // Exemplo para adicionar outro:
