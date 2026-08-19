@@ -56,7 +56,7 @@ const CARDAPIO = [
     disponivel: true
   }
 
-   {
+  {
     id: "prestigio",
     nome: "Prestígio",
     descricao: "Massa especial com chocolate em pó e cacau black, com chocolates blend e branco Nestlé, recheado com uma ganache artesanal de coco (aprox. 110g, 90g de massa especial e 20g de ganache)",
@@ -65,7 +65,7 @@ const CARDAPIO = [
     disponivel: true
   }
 
- {
+  {
     id: "smores",
     nome: "S'mores",
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
@@ -74,7 +74,7 @@ const CARDAPIO = [
     disponivel: true
   }
 
- {
+  {
     id: "alpino-black",
     nome: "Alpino Black",
     descricao: "Massa especial de chocolate em pó e cacau black com pedaços de chocolate Alpino, recheada com Blend de chocolates nobre branco e ao leite (aprox. 120g, 90g de massa, 30g de chocolates branco e ao leite)",
@@ -83,7 +83,7 @@ const CARDAPIO = [
     disponivel: true
   }
 
- {
+  {
     id: "pacoca-com-nutella",
     nome: "Paçoca com Nutella",
     descricao: "Massa com chocolate ao leite e recheio de paçoca com nutella (aprox. 120g, 90g de massa, 30g de paçoca com nutella)",
@@ -92,7 +92,7 @@ const CARDAPIO = [
     disponivel: true
   }
 
- {
+  {
     id: "cappuccino",
     nome: "Cappuccino",
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
@@ -101,7 +101,7 @@ const CARDAPIO = [
     disponivel: true
   }
 
- {
+  {
     id: "churros",
     nome: "Churros",
     descricao: "Massa especial com chocolate branco e canela, recheada com doce de leite (aprox. 20g de doce de leite, 90g massa)",
@@ -110,7 +110,7 @@ const CARDAPIO = [
     disponivel: true
   }
 
- {
+  {
     id: "pistache",
     nome: "Pistache",
     descricao: "Massa com chocolate branco e grãos de pistache, recheada com ganache artesanal de pistache (aprox. 20g de ganache, 90g de massa)",
@@ -189,7 +189,7 @@ const CARDAPIO = [
     preco: 15.50,
     estoque: 10,
     disponivel: true
-  },
+ },
     
   // Exemplo para adicionar outro:
   /*
