@@ -1,0 +1,89 @@
+:root{
+  --brown:#2b170d;--brown2:#442516;--cream:#fff8ee;--cream2:#f4e7d4;
+  --gold:#e7b878;--text:#24150d;--muted:#806d5d;--line:#eadbca;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:#f6eee3;color:var(--text);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif
+}
+button,input,textarea{font:inherit}
+button{cursor:pointer}
+.app{max-width:560px;margin:auto;background:var(--cream);min-height:100vh;box-shadow:0 0 30px #0001}
+.top{
+  background:linear-gradient(145deg,#24120a,#4a2816);color:white;
+  padding:22px 18px 26px;border-radius:0 0 24px 24px
+}
+.brand{font-weight:900;letter-spacing:2px;font-size:20px}
+.brand span{color:var(--gold)}
+.hero{padding:27px 0 0}
+.hero h1{font-size:29px;line-height:1.05;margin:0 0 10px}
+.hero p{color:#d8c4b0;margin:0;line-height:1.45}
+.section{padding:23px 18px 105px}
+.section-title{display:flex;align-items:end;justify-content:space-between;margin-bottom:13px}
+.section-title h2{font-size:18px;margin:0}
+.section-title small{color:var(--muted)}
+.card{
+  background:white;border:1px solid var(--line);border-radius:17px;
+  padding:15px;margin:10px 0;box-shadow:0 5px 16px #5b35130b
+}
+.card-top{display:flex;justify-content:space-between;gap:12px}
+.info{min-width:0;flex:1}
+.info h3{font-size:17px;margin:0 0 5px}
+.desc{font-size:12px;color:var(--muted);line-height:1.4}
+.price{font-weight:900;font-size:17px;margin-top:10px}
+.row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:12px}
+.qty{display:flex;border:1px solid var(--line);border-radius:11px;overflow:hidden;background:#fff}
+.qty button{border:0;background:#fff;padding:6px 11px}
+.qty b{min-width:30px;text-align:center;padding:6px 0}
+.badge{font-size:10px;padding:5px 8px;border-radius:999px;font-weight:800}
+.sold{background:#fde4e1;color:#a33a30}
+.bottom{
+  position:fixed;bottom:0;left:50%;transform:translateX(-50%);
+  width:min(560px,100%);padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+  background:#fffaf3ee;backdrop-filter:blur(10px);z-index:10;border-top:1px solid var(--line)
+}
+.cartbtn{
+  width:100%;border:0;background:var(--brown);color:white;border-radius:15px;
+  padding:15px 16px;display:flex;justify-content:space-between;font-weight:900
+}
+.overlay{position:fixed;inset:0;background:#1d100bcc;display:none;align-items:flex-end;z-index:20}
+.overlay.open{display:flex}
+.sheet{
+  width:min(560px,100%);max-height:92vh;overflow:auto;background:var(--cream);
+  border-radius:24px 24px 0 0;padding:18px
+}
+.sheethead{display:flex;justify-content:space-between;align-items:center}
+.x{border:0;background:#eee0d0;border-radius:50%;width:36px;height:36px}
+.lineitem{
+  display:flex;gap:10px;padding:13px 0;border-bottom:1px solid var(--line);align-items:center
+}
+.lineitem .grow{flex:1}
+.total{
+  display:flex;justify-content:space-between;font-weight:900;font-size:20px;padding:16px 0
+}
+.field{margin:12px 0}
+.field label{display:block;font-size:12px;font-weight:800;margin-bottom:6px}
+.field input,.field textarea,.field select{
+  width:100%;border:1px solid var(--line);background:white;border-radius:11px;
+  padding:11px;outline:none
+}
+.field textarea{min-height:75px;resize:vertical}
+.choice{display:flex;gap:8px}
+.choice button{
+  flex:1;padding:11px;border:1px solid var(--line);border-radius:11px;background:white
+}
+.choice button.active{border-color:var(--brown);background:#f2e4d4;font-weight:800}
+.payment-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.payment-grid button{padding:11px;border:1px solid var(--line);border-radius:11px;background:white;text-align:left}
+.payment-grid button.active{border-color:var(--brown);background:#f2e4d4;font-weight:800}
+.free-delivery{margin:8px 0 15px;padding:10px 12px;border-radius:11px;background:#e9f4df;color:#3f6f2d;font-size:12px;font-weight:800;line-height:1.35}
+.primary{
+  width:100%;border:0;border-radius:12px;padding:14px;background:var(--brown);
+  color:white;font-weight:900
+}
+.empty{text-align:center;color:var(--muted);padding:30px}
+.note{
+  margin-top:13px;padding:11px 12px;border-radius:11px;background:#f4e7d4;
+  color:#6c5746;font-size:11px;line-height:1.4
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2b170d">
+<meta name="description" content="Faça seu pedido de Gran Cookies pelo WhatsApp.">
+<title>Gran Cookies • Pedidos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="app">
+  <div class="top">
+    <div class="brand">GRAN <span>COOKIES</span></div>
+    <div class="hero">
+      <h1>Cookies artesanais<br>que derretem na boca.</h1>
+      <p>Escolha seus favoritos do dia e faça seu pedido em poucos cliques.</p>
+    </div>
+  </div>
+
+  <main class="section">
+    <div class="section-title">
+      <h2>Sabores do dia</h2>
+      <small id="countLabel"></small>
+    </div>
+    <div id="products"></div>
+  </main>
+</div>
+
+<div class="bottom">
+  <button class="cartbtn" onclick="openCart()">
+    <span>Ver pedido (<span id="cartCount">0</span>)</span>
+    <span id="cartTotal">R$ 0,00 ›</span>
+  </button>
+</div>
+
+<div class="overlay" id="cartOverlay" onclick="backdrop(event,'cartOverlay')">
+  <div class="sheet">
+    <div class="sheethead">
+      <h2>Seu pedido</h2>
+      <button class="x" onclick="closeModal('cartOverlay')">×</button>
+    </div>
+
+    <div id="cartLines"></div>
+
+    <div class="total">
+      <span>Total</span>
+      <span id="sheetTotal">R$ 0,00</span>
+    </div>
+    <div id="checkoutBreakdown" class="desc" style="font-size:13px;margin-top:-8px;margin-bottom:10px"></div>
+
+    <div class="field">
+      <label>Como você deseja receber?</label>
+      <div class="choice">
+        <button id="deliveryBtn" onclick="setMode('Entrega')">Entrega</button>
+        <button id="pickupBtn" onclick="setMode('Retirada')">Retirada</button>
+      </div>
+    </div>
+
+    <div id="deliveryFields">
+      <div class="field">
+        <label>Endereço</label>
+        <input id="address" placeholder="Rua, número, bairro">
+      </div>
+      <div class="field">
+        <label>Complemento</label>
+        <input id="complement" placeholder="Casa, apartamento, referência...">
+      </div>
+    </div>
+
+    <div id="freeDeliveryNotice" class="free-delivery" style="display:none">
+      Pedidos com 3 ou mais cookies em um raio de 1,5km tem ENTREGA GRATUITA
+    </div>
+
+    <div class="field">
+      <label>Forma de pagamento</label>
+      <div class="payment-grid">
+        <button id="pixBtn" onclick="setPayment('Pix')">Pix</button>
+        <button id="creditBtn" onclick="setPayment('Cartão de crédito')">Cartão de crédito</button>
+        <button id="debitBtn" onclick="setPayment('Cartão de débito')">Cartão de débito</button>
+        <button id="cashBtn" onclick="setPayment('Dinheiro')">Dinheiro</button>
+      </div>
+    </div>
+
+    <div id="changeField" class="field" style="display:none">
+      <label>Troco para quanto?</label>
+      <input id="changeFor" inputmode="decimal" placeholder="Ex.: R$ 50,00">
+    </div>
+
+    <div class="field">
+      <label>Seu nome</label>
+      <input id="customerName" placeholder="Como podemos te chamar?">
+    </div>
+
+    <div class="field">
+      <label>Seu WhatsApp</label>
+      <input id="customerPhone" inputmode="tel" placeholder="(16) 99999-9999">
+    </div>
+
+    <div class="field">
+      <label>Observações</label>
+      <textarea id="notes" placeholder="Ex.: troco para R$ 100, tocar a campainha..."></textarea>
+    </div>
+
+    <button class="primary" onclick="sendWhatsApp()">
+      ENVIAR PEDIDO PELO WHATSAPP
+    </button>
+  </div>
+</div>
+
+<script src="cardapio.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
