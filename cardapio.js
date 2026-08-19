@@ -32,19 +32,10 @@ const CARDAPIO = [
   {
     id: "red-velvet",
     nome: "Red Velvet",
-    descricao: "Massa de red velvet com chocolate branco e recheio cremoso.",
-    preco: 13.00,
+    descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
+    preco: 13.50,
     estoque: 10,
     disponivel: true
-  },
-
-  {
-    id: "red-velvet",
-    nome: "Red Velvet",
-    descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
-    preco: 13.00,
-    estoque: 0,
-    disponivel: false
   },
   
   {
@@ -54,7 +45,7 @@ const CARDAPIO = [
     preco: 15.50,
     estoque: 10,
     disponivel: true
-  }
+  },
 
   {
     id: "prestigio",
@@ -63,7 +54,7 @@ const CARDAPIO = [
     preco: 14.50,
     estoque: 10,
     disponivel: true
-  }
+  },
 
   {
     id: "smores",
@@ -72,7 +63,7 @@ const CARDAPIO = [
     preco: 14.50,
     estoque: 10,
     disponivel: true
-  }
+  },
 
   {
     id: "alpino-black",
@@ -81,7 +72,7 @@ const CARDAPIO = [
     preco: 15.50,
     estoque: 10,
     disponivel: true
-  }
+  },
 
   {
     id: "pacoca-com-nutella",
@@ -90,7 +81,7 @@ const CARDAPIO = [
     preco: 15.50,
     estoque: 10,
     disponivel: true
-  }
+  },
 
   {
     id: "cappuccino",
@@ -99,7 +90,7 @@ const CARDAPIO = [
     preco: 14.50,
     estoque: 10,
     disponivel: true
-  }
+  },
 
   {
     id: "churros",
@@ -108,7 +99,7 @@ const CARDAPIO = [
     preco: 13.50,
     estoque: 10,
     disponivel: true
-  }
+  },
 
   {
     id: "pistache",
@@ -117,7 +108,7 @@ const CARDAPIO = [
     preco: 17.50,
     estoque: 10,
     disponivel: true
-  }
+  },
 
   {
     id: "maracuja",
