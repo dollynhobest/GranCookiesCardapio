@@ -12,20 +12,20 @@ ALTERE O CARDÁPIO AQUI.
 
 const CARDAPIO = [
   {
-    id: "chocolate-chip",
-    nome: "Chocolate Chip",
-    descricao: "Massa de baunilha com gotas de chocolate meio amargo.",
-    preco: 12.00,
-    estoque: 8,
+    id: "kinder-bueno",
+    nome: "Kinder Bueno",
+    descricao: "Massa especial com chocolate branco e ao leite, recheado com creme de avelã branco artesanal e finalizada com pedaço de Kinder Bueno (aprox. 100g Massa e 30g Creme de Avelã)",
+    preco: 18.50,
+    estoque: 10,
     disponivel: true
   },
 
   {
-    id: "oreo",
-    nome: "Oreo",
-    descricao: "Massa de baunilha com pedaços de Oreo e chocolate branco.",
-    preco: 13.00,
-    estoque: 5,
+    id: "grantella",
+    nome: "Grantella",
+    descricao: "Massa aerada com chocolate ao leite e muita Nutella (Aprox. 30g Nutella, 90g Massa).",
+    preco: 15.50,
+    estoque: 10,
     disponivel: true
   },
 
@@ -34,19 +34,163 @@ const CARDAPIO = [
     nome: "Red Velvet",
     descricao: "Massa de red velvet com chocolate branco e recheio cremoso.",
     preco: 13.00,
-    estoque: 0,
-    disponivel: false
+    estoque: 10,
+    disponivel: true
   },
 
   {
-    id: "nutella",
-    nome: "Nutella",
-    descricao: "Recheio de Nutella com gotas de chocolate.",
-    preco: 14.00,
-    estoque: 6,
+    id: "red-velvet",
+    nome: "Red Velvet",
+    descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
+    preco: 13.00,
+    estoque: 0,
+    disponivel: false
+  },
+  
+  {
+    id: "kitkat",
+    nome: "KitKat",
+    descricao: "Massa com chocolate blend Nestlé, recheado com muita pasta de KitKat e finalizada com um pedaço de KitKat (aprox. 130g, 90g de massa, 30g de Pasta Profissional, 10g de pedaços de KitKat)",
+    preco: 15.50,
+    estoque: 10,
     disponivel: true
   }
 
+   {
+    id: "prestigio",
+    nome: "Prestígio",
+    descricao: "Massa especial com chocolate em pó e cacau black, com chocolates blend e branco Nestlé, recheado com uma ganache artesanal de coco (aprox. 110g, 90g de massa especial e 20g de ganache)",
+    preco: 14.50,
+    estoque: 10,
+    disponivel: true
+  }
+
+ {
+    id: "smores",
+    nome: "S'mores",
+    descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
+    preco: 14.50,
+    estoque: 10,
+    disponivel: true
+  }
+
+ {
+    id: "alpino-black",
+    nome: "Alpino Black",
+    descricao: "Massa especial de chocolate em pó e cacau black com pedaços de chocolate Alpino, recheada com Blend de chocolates nobre branco e ao leite (aprox. 120g, 90g de massa, 30g de chocolates branco e ao leite)",
+    preco: 15.50,
+    estoque: 10,
+    disponivel: true
+  }
+
+ {
+    id: "pacoca-com-nutella",
+    nome: "Paçoca com Nutella",
+    descricao: "Massa com chocolate ao leite e recheio de paçoca com nutella (aprox. 120g, 90g de massa, 30g de paçoca com nutella)",
+    preco: 15.50,
+    estoque: 10,
+    disponivel: true
+  }
+
+ {
+    id: "cappuccino",
+    nome: "Cappuccino",
+    descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
+    preco: 14.50,
+    estoque: 10,
+    disponivel: true
+  }
+
+ {
+    id: "churros",
+    nome: "Churros",
+    descricao: "Massa especial com chocolate branco e canela, recheada com doce de leite (aprox. 20g de doce de leite, 90g massa)",
+    preco: 13.50,
+    estoque: 10,
+    disponivel: true
+  }
+
+ {
+    id: "pistache",
+    nome: "Pistache",
+    descricao: "Massa com chocolate branco e grãos de pistache, recheada com ganache artesanal de pistache (aprox. 20g de ganache, 90g de massa)",
+    preco: 17.50,
+    estoque: 10,
+    disponivel: true
+  }
+
+  {
+    id: "maracuja",
+    nome: "Maracujá",
+    descricao: "Massa com chocolate branco e geleia de maracujá, recheado com mais geleia e brigadeiro de maracujá (aprox. 120g)",
+    preco: 13.50,
+    estoque: 10,
+    disponivel: true
+  },
+ 
+  {
+    id: "granfetti",
+    nome: "Granfetti",
+    descricao: "Massa aerada com muito chocolate ao leite e granulados coloridos (aprox. 120g)",
+    preco: 10.50,
+    estoque: 10,
+    disponivel: true
+  },
+
+  {
+    id: "granmaltine",
+    nome: "Granmaltine",
+    descricao: "Massa aerada com chocolate ao leite e muito Ovomaltine Cremoso (Aprox. 30g Ovomaltien Cremoso, 90g Massa)",
+    preco: 15.50,
+    estoque: 10,
+    disponivel: true
+  },
+    
+  {
+    id: "ninho-com-nutella",
+    nome: "Ninho com Nutella",
+    descricao: "Massa com chocolate branco e chocolate ao leite, recheada com brigadeiro artesanal de Ninho e Nutella, decorado com coberturas de chocolate branco e blend (aprox. 15g de Brigadeiro de Ninho e 15g de Nutella, 90g de Massa; Decoração com aprox. 15g de Coberturas)",
+    preco: 16.50,
+    estoque: 10,
+    disponivel: true
+  },
+    
+  {
+    id: "chocochip-milka",
+    nome: "Chocochip Milka",
+    descricao: "Massa amanteigada com muito chocolate Milka ao leite (aprox. 45g chocolate Milka ao leite, 65g massa amanteigada)",
+    preco: 20.50,
+    estoque: 10,
+    disponivel: true
+  },
+    
+  {
+    id: "oreo",
+    nome: "Oreo",
+    descricao: "Massa com chocolate nobre ao leite e pedaços de bolacha Oreo, recheado com uma ganache de baunilha e chocolate branco (aprox. 110g)",
+    preco: 14.50,
+    estoque: 10,
+    disponivel: true
+  },
+    
+  {
+    id: "bacon",
+    nome: "Bacon",
+    descricao: "Massa amanteigada com chocolates branco e ao leite e pedaços de bacon gourmet (aprox. 105g)",
+    preco: 13.50,
+    estoque: 10,
+    disponivel: true
+  },
+    
+  {
+    id: "caramel-lotus",
+    nome: "Caramel Lotus",
+    descricao: "Massa especial com manteiga clarificada e com chocolate branco, recheado com creme de Biscoito Lotus e ganache de caramelo e finalizado com um biscoito Lotus (Aprox. 90g de massa, 10g de creme de Biscoito Lotus, 10g de ganache de caramelo)",
+    preco: 15.50,
+    estoque: 10,
+    disponivel: true
+  },
+    
   // Exemplo para adicionar outro:
   /*
   ,
