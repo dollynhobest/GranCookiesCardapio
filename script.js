@@ -26,12 +26,35 @@
 let cart = {};
 let mode = "Entrega";
 let payment = "Pix";
+let schoolDelivery = false;
 
 function money(v){
   return v.toLocaleString("pt-BR",{
     style:"currency",
     currency:"BRL"
   });
+}
+
+function renderHomePromo(){
+  const box = document.getElementById("homePromo");
+  if(!box) return;
+
+  if(PROMOCAO_ENTREGA && PROMOCAO_ENTREGA.ativa){
+    box.innerHTML = `
+      <strong>🚚 ENTREGA GRÁTIS</strong>
+      <span>Pedidos com ${PROMOCAO_ENTREGA.minimoCookies} ou mais cookies em um raio de ${String(PROMOCAO_ENTREGA.raioKm).replace(".",",")} km</span>
+    `;
+    box.style.display = "flex";
+  } else {
+    box.style.display = "none";
+  }
+}
+
+function setSchool(value){
+  schoolDelivery = value;
+  document.getElementById("schoolYesBtn").classList.toggle("active", value);
+  document.getElementById("schoolNoBtn").classList.toggle("active", !value);
+  updateCheckoutTotals();
 }
 
 function availableProducts(){
@@ -138,7 +161,9 @@ function cookieCount(){
 
 function deliveryFee(){
   if(mode !== "Entrega") return 0;
-  return cookieCount() >= 3 ? 0 : 4;
+  if(schoolDelivery) return 0;
+  if(PROMOCAO_ENTREGA && PROMOCAO_ENTREGA.ativa && cookieCount() >= PROMOCAO_ENTREGA.minimoCookies) return 0;
+  return 4;
 }
 
 function grandTotal(){
@@ -165,13 +190,19 @@ function updateCheckoutTotals(){
   document.getElementById("sheetTotal").textContent = money(grand);
 
   const notice = document.getElementById("freeDeliveryNotice");
-  if(notice) notice.style.display = mode === "Entrega" && cookieCount() >= 3 ? "block" : "none";
+  if(notice){
+    const promoGratis = PROMOCAO_ENTREGA && PROMOCAO_ENTREGA.ativa && cookieCount() >= PROMOCAO_ENTREGA.minimoCookies;
+    notice.style.display = mode === "Entrega" && promoGratis ? "block" : "none";
+    if(promoGratis){
+      notice.textContent = `Pedidos com ${PROMOCAO_ENTREGA.minimoCookies} ou mais cookies em um raio de ${String(PROMOCAO_ENTREGA.raioKm).replace(".",",")} km tem ENTREGA GRATUITA`;
+    }
+  }
 
   const breakdown = document.getElementById("checkoutBreakdown");
   if(breakdown){
     breakdown.innerHTML =
       '<div>Cookies <span style="float:right">'+money(total())+'</span></div>' +
-      '<div>Entrega <span style="float:right">'+(fee === 0 ? 'GRÁTIS' : money(fee))+'</span></div>' +
+      '<div>Entrega <span style="float:right">'+(schoolDelivery ? 'GRÁTIS (ESCOLA)' : (fee === 0 ? 'GRÁTIS' : money(fee)))+'</span></div>' +
       '<strong style="display:block;margin-top:7px">Total <span style="float:right">'+money(grand)+'</span></strong>';
   }
 }
@@ -230,6 +261,10 @@ function setMode(m){
 
   document.getElementById("deliveryFields").style.display =
     m === "Entrega" ? "block" : "none";
+  document.getElementById("schoolField").style.display =
+    m === "Entrega" ? "block" : "none";
+
+  if(m !== "Entrega") setSchool(false);
   updateCheckoutTotals();
 }
 
@@ -299,6 +334,7 @@ ${payment}
 ${address}
 `;
     if(complement) msg += `Complemento: ${complement}\n`;
+    msg += `Entrega em escola: ${schoolDelivery ? "Sim" : "Não"}\n`;
   }
 
   msg += `
@@ -334,4 +370,6 @@ function backdrop(e,id){
 
 setMode("Entrega");
 setPayment("Pix");
+setSchool(false);
+renderHomePromo();
 render();

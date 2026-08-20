@@ -19,7 +19,9 @@ button{cursor:pointer}
 .hero{padding:27px 0 0}
 .hero h1{font-size:29px;line-height:1.05;margin:0 0 10px}
 .hero p{color:#d8c4b0;margin:0;line-height:1.45}
-.section{padding:23px 18px 105px}
+.section{padding:23px 18px 105px} 
+.home-promo{display:flex;flex-direction:column;gap:3px;margin:0 0 17px;padding:14px 15px;border-radius:15px;background:linear-gradient(135deg,#eaf6e2,#f3f8ea);border:1px solid #cfe5c3;color:#3f6f2d;box-shadow:0 5px 14px #4d7a2310}
+.home-promo strong{font-size:15px;letter-spacing:.2px}.home-promo span{font-size:12px;line-height:1.4;color:#58724b}
 .section-title{display:flex;align-items:end;justify-content:space-between;margin-bottom:13px}
 .section-title h2{font-size:18px;margin:0}
 .section-title small{color:var(--muted)}

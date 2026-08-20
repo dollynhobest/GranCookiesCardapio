@@ -20,6 +20,7 @@
   </div>
 
   <main class="section">
+    <div id="homePromo" class="home-promo" style="display:none"></div>
     <div class="section-title">
       <h2>Sabores do dia</h2>
       <small id="countLabel"></small>
@@ -66,6 +67,14 @@
       <div class="field">
         <label>Complemento</label>
         <input id="complement" placeholder="Casa, apartamento, referência...">
+      </div>
+    </div>
+
+    <div id="schoolField" class="field" style="display:none">
+      <label>Será entrega em Escola?</label>
+      <div class="choice">
+        <button id="schoolNoBtn" onclick="setSchool(false)">Não</button>
+        <button id="schoolYesBtn" onclick="setSchool(true)">Sim</button>
       </div>
     </div>
 
