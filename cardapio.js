@@ -197,3 +197,18 @@ const CARDAPIO = [
 ];
 
 const WHATSAPP_GRAN_COOKIES = "5516989999559";
+
+// ==========================================================
+// 🚚 PROMOÇÃO DE ENTREGA
+//
+// ativa: true  = mostra a promoção e aplica a regra
+//        false = desliga a promoção e também esconde o aviso
+//
+// A promoção vale para pedidos com o número mínimo de cookies
+// dentro do raio indicado.
+// ==========================================================
+const PROMOCAO_ENTREGA = {
+  ativa: true,
+  minimoCookies: 3,
+  raioKm: 1.5
+};  
