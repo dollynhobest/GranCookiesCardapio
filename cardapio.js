@@ -25,8 +25,8 @@ const CARDAPIO = [
     nome: "Grantella",
     descricao: "Massa aerada com chocolate ao leite e muita Nutella (Aprox. 30g Nutella, 90g Massa).",
     preco: 15.50,
-    estoque: 01,
-    disponivel: false
+    estoque: 09,
+    disponivel: true
   },
 
   {
@@ -71,7 +71,7 @@ const CARDAPIO = [
     descricao: "Massa especial de chocolate em pó e cacau black com pedaços de chocolate Alpino, recheada com Blend de chocolates nobre branco e ao leite (aprox. 120g, 90g de massa, 30g de chocolates branco e ao leite)",
     preco: 15.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
 
   {
