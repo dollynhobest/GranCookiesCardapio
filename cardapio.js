@@ -208,7 +208,7 @@ const WHATSAPP_GRAN_COOKIES = "5516989999559";
 // dentro do raio indicado.
 // ==========================================================
 const PROMOCAO_ENTREGA = {
-  ativa: false,
+  ativa: true,
   minimoCookies: 3,
   raioKm: 1.5
 };  
