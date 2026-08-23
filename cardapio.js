@@ -16,7 +16,7 @@ const CARDAPIO = [
     nome: "Kinder Bueno",
     descricao: "Massa especial com chocolate branco e ao leite, recheado com creme de avelã branco artesanal e finalizada com pedaço de Kinder Bueno (aprox. 100g Massa e 30g Creme de Avelã)",
     preco: 18.50,
-    estoque: 09,
+    estoque: 03,
     disponivel: true
   },
 
@@ -34,7 +34,7 @@ const CARDAPIO = [
     nome: "Red Velvet",
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
-    estoque: 09,
+    estoque: 02,
     disponivel: true
   },
   
