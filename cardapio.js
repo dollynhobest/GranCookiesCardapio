@@ -16,7 +16,7 @@ const CARDAPIO = [
     nome: "Kinder Bueno",
     descricao: "Massa especial com chocolate branco e ao leite, recheado com creme de avelã branco artesanal e finalizada com pedaço de Kinder Bueno (aprox. 100g Massa e 30g Creme de Avelã)",
     preco: 18.50,
-    estoque: 03,
+    estoque: 01,
     disponivel: true
   },
 
@@ -208,7 +208,7 @@ const WHATSAPP_GRAN_COOKIES = "5516989999559";
 // dentro do raio indicado.
 // ==========================================================
 const PROMOCAO_ENTREGA = {
-  ativa: true,
+  ativa: false,
   minimoCookies: 3,
   raioKm: 1.5
 };  
