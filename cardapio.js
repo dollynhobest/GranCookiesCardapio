@@ -160,7 +160,7 @@ const CARDAPIO = [
     nome: "Oreo",
     descricao: "Massa com chocolate nobre ao leite e pedaços de bolacha Oreo, recheado com uma ganache de baunilha e chocolate branco (aprox. 110g)",
     preco: 14.50,
-    estoque: 01,
+    estoque: 09,
     disponivel: true
   },
     
@@ -208,7 +208,7 @@ const WHATSAPP_GRAN_COOKIES = "5516989999559";
 // dentro do raio indicado.
 // ==========================================================
 const PROMOCAO_ENTREGA = {
-  ativa: false,
+  ativa: true,
   minimoCookies: 3,
   raioKm: 1.5
 };  
