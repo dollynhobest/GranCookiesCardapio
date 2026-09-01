@@ -34,7 +34,7 @@ const CARDAPIO = [
     nome: "Red Velvet",
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
-    estoque: 09,
+    estoque: 02,
     disponivel: false
   },
   
@@ -62,7 +62,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
 
   {
@@ -177,6 +177,15 @@ const CARDAPIO = [
     id: "caramel-lotus",
     nome: "Caramel Lotus",
     descricao: "Massa especial com manteiga clarificada e com chocolate branco, recheado com creme de Biscoito Lotus e ganache de caramelo e finalizado com um biscoito Lotus (Aprox. 90g de massa, 10g de creme de Biscoito Lotus, 10g de ganache de caramelo)",
+    preco: 15.50,
+    estoque: 03,
+    disponivel: true
+ },
+
+  {
+    id: "ninho",
+    nome: "(Novo) Ninho",
+    descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
     preco: 15.50,
     estoque: 03,
     disponivel: true
