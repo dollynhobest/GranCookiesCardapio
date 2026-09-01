@@ -186,7 +186,7 @@ const CARDAPIO = [
     id: "ninho",
     nome: "(Novo) Ninho",
     descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
-    preco: 15.50,
+    preco: 13.50,
     estoque: 03,
     disponivel: true
  },
