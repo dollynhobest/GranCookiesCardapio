@@ -34,8 +34,8 @@ const CARDAPIO = [
     nome: "Red Velvet",
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
-    estoque: 02,
-    disponivel: false
+    estoque: 01,
+    disponivel: true
   },
   
   {
@@ -187,7 +187,7 @@ const CARDAPIO = [
     nome: "(Novo) Ninho",
     descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
     preco: 13.50,
-    estoque: 03,
+    estoque: 01,
     disponivel: true
  },
     
