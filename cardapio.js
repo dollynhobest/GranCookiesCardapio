@@ -34,8 +34,8 @@ const CARDAPIO = [
     nome: "Red Velvet",
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
-    estoque: 01,
-    disponivel: false
+    estoque: 02,
+    disponivel: true
   },
   
   {
@@ -88,8 +88,8 @@ const CARDAPIO = [
     nome: "Cappuccino",
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
-    estoque: 09,
-    disponivel: false
+    estoque: 01,
+    disponivel: true
   },
 
   {
@@ -187,8 +187,8 @@ const CARDAPIO = [
     nome: "(Novo) Ninho",
     descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
     preco: 13.50,
-    estoque: 01,
-    disponivel: false
+    estoque: 06,
+    disponivel: true
  },
     
   // Exemplo para adicionar outro:
