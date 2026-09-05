@@ -35,7 +35,7 @@ const CARDAPIO = [
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
     estoque: 01,
-    disponivel: False
+    disponivel: false
   },
   
   {
