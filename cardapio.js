@@ -178,7 +178,7 @@ const CARDAPIO = [
     nome: "Caramel Lotus",
     descricao: "Massa especial com manteiga clarificada e com chocolate branco, recheado com creme de Biscoito Lotus e ganache de caramelo e finalizado com um biscoito Lotus (Aprox. 90g de massa, 10g de creme de Biscoito Lotus, 10g de ganache de caramelo)",
     preco: 15.50,
-    estoque: 03,
+    estoque: 01,
     disponivel: true
  },
 
@@ -187,7 +187,7 @@ const CARDAPIO = [
     nome: "(Novo) Ninho",
     descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
     preco: 13.50,
-    estoque: 06,
+    estoque: 01,
     disponivel: true
  },
     
