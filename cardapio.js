@@ -35,7 +35,7 @@ const CARDAPIO = [
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
     estoque: 02,
-    disponivel: true
+    disponivel: false
   },
   
   {
@@ -61,7 +61,7 @@ const CARDAPIO = [
     nome: "S'mores",
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
-    estoque: 09,
+    estoque: 01,
     disponivel: true
   },
 
@@ -161,7 +161,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate nobre ao leite e pedaços de bolacha Oreo, recheado com uma ganache de baunilha e chocolate branco (aprox. 110g)",
     preco: 14.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
     
   {
