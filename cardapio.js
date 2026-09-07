@@ -62,7 +62,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
     estoque: 01,
-    disponivel: true
+    disponivel: false
   },
 
   {
