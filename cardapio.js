@@ -61,8 +61,8 @@ const CARDAPIO = [
     nome: "S'mores",
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
-    estoque: 01,
-    disponivel: false
+    estoque: 04,
+    disponivel: true
   },
 
   {
@@ -89,7 +89,7 @@ const CARDAPIO = [
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
     estoque: 01,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -161,7 +161,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate nobre ao leite e pedaços de bolacha Oreo, recheado com uma ganache de baunilha e chocolate branco (aprox. 110g)",
     preco: 14.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
     
   {
@@ -187,7 +187,7 @@ const CARDAPIO = [
     nome: "(Novo) Ninho",
     descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
     preco: 13.50,
-    estoque: 01,
+    estoque: 08,
     disponivel: true
  },
     
