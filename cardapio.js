@@ -61,8 +61,8 @@ const CARDAPIO = [
     nome: "S'mores",
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
-    estoque: 01,
-    disponivel: true
+    estoque: 08,
+    disponivel: false
   },
 
   {
@@ -178,8 +178,8 @@ const CARDAPIO = [
     nome: "Caramel Lotus",
     descricao: "Massa especial com manteiga clarificada e com chocolate branco, recheado com creme de Biscoito Lotus e ganache de caramelo e finalizado com um biscoito Lotus (Aprox. 90g de massa, 10g de creme de Biscoito Lotus, 10g de ganache de caramelo)",
     preco: 15.50,
-    estoque: 01,
-    disponivel: true
+    estoque: 03,
+    disponivel: false
  },
 
   {
@@ -217,7 +217,7 @@ const WHATSAPP_GRAN_COOKIES = "5516989999559";
 // dentro do raio indicado.
 // ==========================================================
 const PROMOCAO_ENTREGA = {
-  ativa: false,
+  ativa: true,
   minimoCookies: 3,
   raioKm: 1.5
 };  
