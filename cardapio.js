@@ -61,8 +61,8 @@ const CARDAPIO = [
     nome: "S'mores",
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
-    estoque: 08,
-    disponivel: false
+    estoque: 04,
+    disponivel: true
   },
 
   {
@@ -143,7 +143,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate branco e chocolate ao leite, recheada com brigadeiro artesanal de Ninho e Nutella, decorado com coberturas de chocolate branco e blend (aprox. 15g de Brigadeiro de Ninho e 15g de Nutella, 90g de Massa; Decoração com aprox. 15g de Coberturas)",
     preco: 16.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
     
   {
