@@ -26,7 +26,7 @@ const CARDAPIO = [
     descricao: "Massa aerada com chocolate ao leite e muita Nutella (Aprox. 30g Nutella, 90g Massa).",
     preco: 15.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -34,7 +34,7 @@ const CARDAPIO = [
     nome: "Red Velvet",
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
-    estoque: 02,
+    estoque: 06,
     disponivel: false
   },
   
@@ -89,7 +89,7 @@ const CARDAPIO = [
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
     estoque: 01,
-    disponivel: true
+    disponivel: false
   },
 
   {
