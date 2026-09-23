@@ -88,8 +88,8 @@ const CARDAPIO = [
     nome: "Cappuccino",
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
-    estoque: 01,
-    disponivel: false
+    estoque: 04,
+    disponivel: true
   },
 
   {
@@ -161,7 +161,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate nobre ao leite e pedaços de bolacha Oreo, recheado com uma ganache de baunilha e chocolate branco (aprox. 110g)",
     preco: 14.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
     
   {
@@ -179,7 +179,7 @@ const CARDAPIO = [
     descricao: "Massa especial com manteiga clarificada e com chocolate branco, recheado com creme de Biscoito Lotus e ganache de caramelo e finalizado com um biscoito Lotus (Aprox. 90g de massa, 10g de creme de Biscoito Lotus, 10g de ganache de caramelo)",
     preco: 15.50,
     estoque: 03,
-    disponivel: false
+    disponivel: true
  },
 
   {
@@ -188,7 +188,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
     preco: 13.50,
     estoque: 08,
-    disponivel: true
+    disponivel: false
  },
     
   // Exemplo para adicionar outro:
