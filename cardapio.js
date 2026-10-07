@@ -44,7 +44,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate blend Nestlé, recheado com muita pasta de KitKat e finalizada com um pedaço de KitKat (aprox. 130g, 90g de massa, 30g de Pasta Profissional, 10g de pedaços de KitKat)",
     preco: 15.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -184,11 +184,20 @@ const CARDAPIO = [
 
   {
     id: "ninho",
-    nome: "(Novo) Ninho",
+    nome: "Ninho",
     descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
     preco: 13.50,
     estoque: 08,
-    disponivel: false
+    disponivel: true
+ },
+
+  {
+    id: "mm",
+    nome: "(Novo) M M's",
+    descricao: "Massa amanteigada com chocolate blend e chocolate M&M's (Aprox. 120g)",
+    preco: 14.50,
+    estoque: 09,
+    disponivel: true
  },
     
   // Exemplo para adicionar outro:
