@@ -16,8 +16,8 @@ const CARDAPIO = [
     nome: "Kinder Bueno",
     descricao: "Massa especial com chocolate branco e ao leite, recheado com creme de avelã branco artesanal e finalizada com pedaço de Kinder Bueno (aprox. 100g Massa e 30g Creme de Avelã)",
     preco: 18.50,
-    estoque: 01,
-    disponivel: false
+    estoque: 09,
+    disponivel: true
   },
 
   {
@@ -62,7 +62,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
     estoque: 04,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -188,7 +188,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolate branco, recheado com ganache de leite Ninho (Aprox. 100g de massa, 20g de ganache de Ninho)",
     preco: 13.50,
     estoque: 08,
-    disponivel: true
+    disponivel: false
  },
 
   {
