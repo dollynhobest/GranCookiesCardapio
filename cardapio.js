@@ -31,7 +31,7 @@ const CARDAPIO = [
     descricao: "Massa aerada com chocolate ao leite e muita Nutella (Aprox. 30g Nutella, 90g Massa).",
     preco: 15.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -41,7 +41,7 @@ const CARDAPIO = [
     descricao: "Massa fofinha com chocolate branco recheada com geleia de morango e brigadeiro de cream cheese (aprox. 105g.",
     preco: 13.50,
     estoque: 06,
-    disponivel: true
+    disponivel: false
   },
   
   {
@@ -171,7 +171,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com muito chocolate Milka ao leite (aprox. 45g chocolate Milka ao leite, 65g massa amanteigada)",
     preco: 20.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
     
   {
