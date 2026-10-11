@@ -1,0 +1,13 @@
+FOTOS DOS COOKIES - GRAN COOKIES
+
+Coloque nesta pasta os arquivos de imagem dos cookies (de preferência JPG ou PNG).
+
+Para vincular uma foto, abra cardapio.js e preencha o campo imagem do sabor.
+Exemplo para Kinder Bueno:
+  imagem: "imagens/kinder-bueno.jpg",
+
+O nome e a extensão precisam corresponder exatamente ao arquivo enviado.
+Você também pode usar um link direto para uma imagem online.
+
+Sugestão: use fotos quadradas, bem iluminadas, com o cookie centralizado.
+Enquanto não houver uma foto configurada, o cardápio mostra um ícone provisório de cookie.

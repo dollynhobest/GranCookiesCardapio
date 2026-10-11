@@ -87,8 +87,21 @@ function render(){
     const el = document.createElement("div");
     el.className = "card";
 
+    const photo = p.imagem
+      ? `
+        <div class="product-photo">
+          <img src="${esc(p.imagem)}" alt="Foto do cookie ${esc(p.nome)}" loading="lazy"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="photo-placeholder" style="display:none" aria-label="Foto não encontrada">🍪</div>
+        </div>`
+      : `
+        <div class="product-photo">
+          <div class="photo-placeholder" aria-label="Adicione a foto deste cookie">🍪</div>
+        </div>`;
+
     el.innerHTML = `
       <div class="card-top">
+        ${photo}
         <div class="info">
           <h3>${esc(p.nome)}</h3>
           <div class="desc">${esc(p.descricao)}</div>
