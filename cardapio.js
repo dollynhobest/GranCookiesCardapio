@@ -101,7 +101,7 @@ const CARDAPIO = [
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
     estoque: 04,
-    disponivel: true
+    disponivel: false
   },
 
   {
