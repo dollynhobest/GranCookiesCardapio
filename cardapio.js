@@ -217,7 +217,7 @@ const CARDAPIO = [
   {
     id: "mm",
     nome: "(Novo) M M's",
-    imagem: "",
+    imagem: "imagens/MMs.png",
     descricao: "Massa amanteigada com chocolate blend e chocolate M&M's (Aprox. 120g)",
     preco: 14.50,
     estoque: 09,
