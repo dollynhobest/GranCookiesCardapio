@@ -47,11 +47,11 @@ const CARDAPIO = [
   {
     id: "kitkat",
     nome: "KitKat",
-    imagem: "",
+    imagem: "imagens/KitKat.png",
     descricao: "Massa com chocolate blend Nestlé, recheado com muita pasta de KitKat e finalizada com um pedaço de KitKat (aprox. 130g, 90g de massa, 30g de Pasta Profissional, 10g de pedaços de KitKat)",
     preco: 15.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
 
   {
@@ -101,7 +101,7 @@ const CARDAPIO = [
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
     estoque: 04,
-    disponivel: false
+    disponivel: true
   },
 
   {
