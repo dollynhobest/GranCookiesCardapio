@@ -67,11 +67,11 @@ const CARDAPIO = [
   {
     id: "smores",
     nome: "S'mores",
-    imagem: "",
+    imagem: "imagens/Smores.png",
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
     estoque: 04,
-    disponivel: false
+    disponivel: true
   },
 
   {
@@ -177,11 +177,11 @@ const CARDAPIO = [
   {
     id: "oreo",
     nome: "Oreo",
-    imagem: "",
+    imagem: "imagens/Oreo.png",
     descricao: "Massa com chocolate nobre ao leite e pedaços de bolacha Oreo, recheado com uma ganache de baunilha e chocolate branco (aprox. 110g)",
     preco: 14.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
     
   {
