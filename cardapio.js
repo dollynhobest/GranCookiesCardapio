@@ -51,7 +51,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate blend Nestlé, recheado com muita pasta de KitKat e finalizada com um pedaço de KitKat (aprox. 130g, 90g de massa, 30g de Pasta Profissional, 10g de pedaços de KitKat)",
     preco: 15.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
 
   {
@@ -223,6 +223,16 @@ const CARDAPIO = [
     estoque: 09,
     disponivel: true
  },
+
+    {
+    id: "halloween",
+    nome: "Halloween (Especial)",
+    imagem: "",
+    descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora. (",
+    preco: 13.50,
+    estoque: 09,
+    disponivel: true
+  },
     
   // Exemplo para adicionar outro:
   /*
