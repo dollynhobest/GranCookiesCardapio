@@ -50,7 +50,7 @@ const CARDAPIO = [
     imagem: "imagens/KitKat.png",
     descricao: "Massa com chocolate blend Nestlé, recheado com muita pasta de KitKat e finalizada com um pedaço de KitKat (aprox. 130g, 90g de massa, 30g de Pasta Profissional, 10g de pedaços de KitKat)",
     preco: 15.50,
-    estoque: 02,
+    estoque: 01,
     disponivel: true
   },
 
@@ -151,7 +151,7 @@ const CARDAPIO = [
     descricao: "Massa aerada com chocolate ao leite e muito Ovomaltine Cremoso (Aprox. 30g Ovomaltine Cremoso, 90g Massa)",
     preco: 15.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
     
   {
