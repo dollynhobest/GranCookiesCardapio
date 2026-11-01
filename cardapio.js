@@ -21,7 +21,7 @@ const CARDAPIO = [
     descricao: "Massa especial Black com bastante chocolate ao leite, recheado com creme de avelã e avelãs tostadas laminadas, finalizado com um Ferrero Rocher no topo (aprox. 90g Massa e 30g Creme de Avelã)",
     preco: 19.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
 
     {
@@ -31,7 +31,7 @@ const CARDAPIO = [
     descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora. (",
     preco: 13.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
   
   {
@@ -41,7 +41,7 @@ const CARDAPIO = [
     descricao: "Massa especial com chocolate branco e ao leite, recheado com creme de avelã branco artesanal e finalizada com pedaço de Kinder Bueno (aprox. 90g Massa e 30g Creme de Avelã)",
     preco: 18.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -101,7 +101,7 @@ const CARDAPIO = [
     descricao: "Massa especial de chocolate em pó e cacau black com pedaços de chocolate Alpino, recheada com Blend de chocolates nobre branco e ao leite (aprox. 120g, 90g de massa, 30g de chocolates branco e ao leite)",
     preco: 15.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -121,7 +121,7 @@ const CARDAPIO = [
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
     estoque: 04,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -171,7 +171,7 @@ const CARDAPIO = [
     descricao: "Massa aerada com chocolate ao leite e muito Ovomaltine Cremoso (Aprox. 30g Ovomaltine Cremoso, 90g Massa)",
     preco: 15.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
     
   {
@@ -201,7 +201,7 @@ const CARDAPIO = [
     descricao: "Massa com chocolate nobre ao leite e pedaços de bolacha Oreo, recheado com uma ganache de baunilha e chocolate branco (aprox. 110g)",
     preco: 14.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
     
   {
@@ -241,7 +241,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolate blend e chocolate M&M's (Aprox. 120g)",
     preco: 14.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
  },
 
     
