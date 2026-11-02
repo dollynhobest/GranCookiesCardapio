@@ -21,7 +21,7 @@ const CARDAPIO = [
     descricao: "Massa especial Black com bastante chocolate ao leite, recheado com creme de avelã e avelãs tostadas laminadas, finalizado com um Ferrero Rocher no topo (aprox. 90g Massa e 30g Creme de Avelã)",
     preco: 19.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
 
     {
@@ -31,7 +31,7 @@ const CARDAPIO = [
     descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora. (",
     preco: 13.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
   
   {
@@ -41,7 +41,7 @@ const CARDAPIO = [
     descricao: "Massa especial com chocolate branco e ao leite, recheado com creme de avelã branco artesanal e finalizada com pedaço de Kinder Bueno (aprox. 90g Massa e 30g Creme de Avelã)",
     preco: 18.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
 
   {
@@ -120,8 +120,8 @@ const CARDAPIO = [
     imagem: "imagens/Cappuccino.png",
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
-    estoque: 04,
-    disponivel: false
+    estoque: 01,
+    disponivel: true
   },
 
   {
@@ -171,7 +171,7 @@ const CARDAPIO = [
     descricao: "Massa aerada com chocolate ao leite e muito Ovomaltine Cremoso (Aprox. 30g Ovomaltine Cremoso, 90g Massa)",
     preco: 15.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
     
   {
@@ -241,7 +241,7 @@ const CARDAPIO = [
     descricao: "Massa amanteigada com chocolate blend e chocolate M&M's (Aprox. 120g)",
     preco: 14.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
  },
 
     
