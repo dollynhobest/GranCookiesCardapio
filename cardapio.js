@@ -70,7 +70,7 @@ const CARDAPIO = [
     imagem: "imagens/KitKat.png",
     descricao: "Massa com chocolate blend Nestlé, recheado com muita pasta de KitKat e finalizada com um pedaço de KitKat (aprox. 130g, 90g de massa, 30g de Pasta Profissional, 10g de pedaços de KitKat)",
     preco: 15.50,
-    estoque: 09,
+    estoque: 02,
     disponivel: false
   },
 
@@ -101,7 +101,7 @@ const CARDAPIO = [
     descricao: "Massa especial de chocolate em pó e cacau black com pedaços de chocolate Alpino, recheada com Blend de chocolates nobre branco e ao leite (aprox. 120g, 90g de massa, 30g de chocolates branco e ao leite)",
     preco: 15.50,
     estoque: 09,
-    disponivel: true
+    disponivel: false
   },
 
   {
@@ -121,7 +121,7 @@ const CARDAPIO = [
     descricao: "Massa especial amanteigada com café Nestle Gold N°6 e chocolates meio amargo, ao leite e branco  (aprox. 120g)",
     preco: 14.50,
     estoque: 01,
-    disponivel: true
+    disponivel: false
   },
 
   {
