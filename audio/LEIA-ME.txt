@@ -1,0 +1,4 @@
+Coloque nesta pasta o arquivo de música definido em CONFIGURACAO_MUSICA no cardapio.js.
+Exemplo: audio/minha-musica.mp3
+Não há botão ou controle de música na página: o volume, autoplay e repetição são controlados pelo código.
+Observação: navegadores podem bloquear autoplay com som até a primeira interação do visitante.

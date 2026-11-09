@@ -3,28 +3,37 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#21142d">
+<meta name="theme-color" content="#2b170d">
 <meta name="description" content="Faça seu pedido de Gran Cookies pelo WhatsApp.">
 <title>Gran Cookies • Pedidos</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="intro-active">
+<!-- Abertura da marca: desaparece suavemente e revela o cardápio. -->
+<div class="intro-splash" id="introSplash" aria-label="Gran Cookies" role="status">
+  <img src="imagens/gran-cookies-logo.webp" alt="Logo Gran Cookies" class="intro-logo">
+</div>
+
 <div class="app">
   <div class="top">
     <div class="brand">GRAN <span>COOKIES</span></div>
     <div class="hero">
-      <h1>Cookies assustadoramente deliciosos.</h1>
-      <p>Escolha seus favoritos antes que desapareçam na noite. Doces ou travessuras?</p>
+      <h1>Os melhores sabores<br>de todo o universo.</h1>
+      <p>Escolha seus favoritos do dia e faça seu pedido em poucos cliques.</p>
     </div>
+
+    <!-- Áudio controlado exclusivamente pela configuração em cardapio.js. -->
+    <audio id="backgroundMusic" preload="auto" aria-hidden="true"></audio>
   </div>
 
   <main class="section">
     <div id="homePromo" class="home-promo" style="display:none"></div>
     <div class="section-title">
-      <h2>Cookies do dia</h2>
+      <h2>Cardápio do dia</h2>
       <small id="countLabel"></small>
     </div>
+    <nav id="categoryNav" class="category-nav" aria-label="Categorias do cardápio"></nav>
     <div id="products"></div>
   </main>
 </div>
@@ -34,6 +43,22 @@
     <span>Ver pedido (<span id="cartCount">0</span>)</span>
     <span id="cartTotal">R$ 0,00 ›</span>
   </button>
+</div>
+
+<div class="overlay customization-overlay" id="customizationOverlay" onclick="backdrop(event,'customizationOverlay')">
+  <div class="sheet custom-sheet">
+    <div class="sheethead">
+      <h2 id="customizationTitle">Personalize seu produto</h2>
+      <button class="x" type="button" onclick="fecharPersonalizacao()" aria-label="Fechar">×</button>
+    </div>
+    <p id="customizationDescription" class="desc custom-description"></p>
+    <div id="customizationFields"></div>
+    <div class="custom-total">
+      <span>Valor desta unidade</span>
+      <strong id="customizationTotal">R$ 0,00</strong>
+    </div>
+    <button class="primary" type="button" onclick="confirmarPersonalizacao()">ADICIONAR AO PEDIDO</button>
+  </div>
 </div>
 
 <div class="overlay" id="cartOverlay" onclick="backdrop(event,'cartOverlay')">
