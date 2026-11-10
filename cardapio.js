@@ -43,6 +43,26 @@ const CONFIGURACAO_MUSICA = {
 };
 
 const CARDAPIO = [
+   {
+    id: "ferrero-rocher",
+    nome: "Ferrero Rocher",
+    imagem: "imagens/ferrero.png",
+    descricao: "Massa especial Black com bastante chocolate ao leite, recheado com creme de avelã e avelãs tostadas laminadas, finalizado com um Ferrero Rocher no topo (aprox. 90g Massa e 30g Creme de Avelã)",
+    preco: 19.50,
+    estoque: 09,
+    disponivel: true
+  },
+
+    {
+    id: "halloween",
+    nome: "Halloween (Especial)",
+    imagem: "",
+    descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora. (",
+    preco: 13.50,
+    estoque: 09,
+    disponivel: true
+  },
+  
   {
     id: "kinder-bueno",
     categoria: "cookies",
