@@ -122,11 +122,11 @@ const CARDAPIO = [
     id: "smores",
     categoria: "cookies",
     nome: "S'mores",
-    imagem: "",
+    imagem: "imagens/Smores.png",
     descricao: "Massa amanteigada com chocolate ao leite, biscoito amanteigado e marshmallow artesanal (aprox. 120g)",
     preco: 14.50,
     estoque: 04,
-    disponivel: false
+    disponivel: true
   },
 
   {
@@ -221,11 +221,11 @@ const CARDAPIO = [
     id: "ninho-com-nutella",
     categoria: "cookies",
     nome: "Ninho com Nutella",
-    imagem: "",
+    imagem: "imagens/NinhocomNutella.png",
     descricao: "Massa com chocolate branco e chocolate ao leite, recheada com brigadeiro artesanal de Ninho e Nutella, decorado com coberturas de chocolate branco e blend (aprox. 15g de Brigadeiro de Ninho e 15g de Nutella, 90g de Massa; Decoração com aprox. 15g de Coberturas)",
     preco: 16.50,
     estoque: 09,
-    disponivel: false
+    disponivel: true
   },
     
   {
