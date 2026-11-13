@@ -70,7 +70,7 @@ const CARDAPIO = [
     imagem: "imagens/kinder-bueno.png",
     descricao: "Massa especial com chocolate branco e ao leite, recheado com creme de avelã branco artesanal e finalizada com pedaço de Kinder Bueno (aprox. 100g Massa e 30g Creme de Avelã)",
     preco: 18.50,
-    estoque: 01,
+    estoque: 09,
     disponivel: true
   },
 
@@ -213,7 +213,7 @@ const CARDAPIO = [
     imagem: "imagens/Granmaltine.png",
     descricao: "Massa aerada com chocolate ao leite e muito Ovomaltine Cremoso (Aprox. 30g Ovomaltine Cremoso, 90g Massa)",
     preco: 15.50,
-    estoque: 01,
+    estoque: 09,
     disponivel: true
   },
     
