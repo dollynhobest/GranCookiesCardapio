@@ -55,10 +55,10 @@ const CARDAPIO = [
 
     {
     id: "halloween",
-    nome: "Halloween (Especial)",
+    nome: "Halloween (PROMOÇÃO)",
     imagem: "",
-    descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora. (",
-    preco: 13.50,
+    descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora. 
+    preco: 8.00,
     estoque: 09,
     disponivel: true
   },
@@ -299,10 +299,10 @@ const CARDAPIO = [
     categoria: "bebidas",
     nome: "Bubble Drink",
     imagem: "imagens/BubbleDrinks.png",
-    descricao: "Bebida personalizada com base, bolinhas e sabor à sua escolha.",
+    descricao: "Bebida no estilo oriental com bolinhas que estouram na boca, escolha sua base, seu sabor e suas bolinhas!",
     preco: 18.50,
     estoque: 20,
-    disponivel: false,
+    disponivel: true,
     gruposAdicionais: [
       {
         id: "base",
@@ -319,6 +319,25 @@ const CARDAPIO = [
         ]
       },
       {
+        id: "sabor",
+        titulo: "Escolha o sabor",
+        tipo: "unica",
+        obrigatorio: true,
+        minimo: 1,
+        maximo: 1,
+        opcoes: [
+          { id: "amora", nome: "Amora", preco: 0.00, disponivel: false },
+          { id: "blueberry", nome: "Blueberry", preco: 0.00, disponivel: true },
+          { id: "macaverde", nome: "Maçã Verde", preco: 0.00, disponivel: true },
+          { id: "maracuja", nome: "Marácuja", preco: 0.00, disponivel: true },
+          { id: "melancia", nome: "Melância", preco: 0.00, disponivel: true },
+          { id: "morango", nome: "Morango", preco: 0.00, disponivel: false },
+          { id: "pessego", nome: "Pêssego", preco: 0.00, disponivel: true },
+          { id: "pinklemonade", nome: "Pink Lemonade", preco: 0.00, disponivel: true },
+          { id: "kiwi", nome: "Kiwi", preco: 0.00, disponivel: false }
+        ]
+      },
+      {
         id: "bolinhas",
         titulo: "Escolha as bolinhas",
         tipo: "unica",
@@ -332,22 +351,13 @@ const CARDAPIO = [
         ]
       },
       {
-        id: "sabor",
-        titulo: "Escolha o sabor",
+        id: "adic",
+        titulo: "Adicionais",
         tipo: "unica",
         obrigatorio: true,
         minimo: 1,
-        maximo: 1,
-        opcoes: [
-          { id: "amora", nome: "Amora", preco: 0.00, disponivel: true },
-          { id: "blueberry", nome: "Blueberry", preco: 0.00, disponivel: true },
-          { id: "macaverde", nome: "Maçã Verde", preco: 0.00, disponivel: true },
-          { id: "maracuja", nome: "Marácuja", preco: 0.00, disponivel: true },
-          { id: "melancia", nome: "Melância", preco: 0.00, disponivel: true },
-          { id: "morango", nome: "Morango", preco: 0.00, disponivel: true },
-          { id: "pessego", nome: "Pêssego", preco: 0.00, disponivel: true },
-          { id: "pinklemonade", nome: "Pink Lemonade", preco: 0.00, disponivel: true },
-          { id: "kiwi", nome: "Kiwi", preco: 0.00, disponivel: true }
+        maximo: 2,
+        opcoes: [Mais Bolinhas (35g)", preco: 3.00, disponivel: true }
         ]
       }
     ]
