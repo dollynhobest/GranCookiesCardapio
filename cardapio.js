@@ -57,7 +57,7 @@ const CARDAPIO = [
     id: "halloween",
     nome: "Halloween (PROMOÇÃO)",
     imagem: "",
-    descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora. 
+    descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora.", 
     preco: 8.00,
     estoque: 09,
     disponivel: true
@@ -354,11 +354,11 @@ const CARDAPIO = [
         id: "adic",
         titulo: "Adicionais",
         tipo: "unica",
-        obrigatorio: true,
+        obrigatorio: false,
         minimo: 1,
         maximo: 2,
         opcoes: [
-          {id: "maisbolinha", nome: "Mais Bolinhas (35g)", preco: 3.00, disponivel: true }
+          { id: "maisbolinha", nome: "Mais Bolinhas (35g)", preco: 3.00, disponivel: true }
         ]
       }
     ]
