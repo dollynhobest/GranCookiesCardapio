@@ -59,7 +59,7 @@ const CARDAPIO = [
     imagem: "",
     descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora.", 
     preco: 8.00,
-    estoque: 09,
+    estoque: 02,
     disponivel: true
   },
   
@@ -213,7 +213,7 @@ const CARDAPIO = [
     imagem: "imagens/Granmaltine.png",
     descricao: "Massa aerada com chocolate ao leite e muito Ovomaltine Cremoso (Aprox. 30g Ovomaltine Cremoso, 90g Massa)",
     preco: 15.50,
-    estoque: 09,
+    estoque: 03,
     disponivel: true
   },
     
@@ -290,7 +290,7 @@ const CARDAPIO = [
     imagem: "imagens/MMs.png",
     descricao: "Massa amanteigada com chocolate blend e chocolate M&M's (Aprox. 120g)",
     preco: 14.50,
-    estoque: 09,
+    estoque: 03,
     disponivel: true
  },
 
@@ -302,7 +302,7 @@ const CARDAPIO = [
     descricao: "Bebida no estilo oriental com bolinhas que estouram na boca, escolha sua base, seu sabor e suas bolinhas!",
     preco: 18.50,
     estoque: 20,
-    disponivel: true,
+    disponivel: false,
     gruposAdicionais: [
       {
         id: "base",
