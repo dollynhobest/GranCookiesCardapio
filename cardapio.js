@@ -59,7 +59,7 @@ const CARDAPIO = [
     imagem: "",
     descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora.", 
     preco: 8.00,
-    estoque: 02,
+    estoque: 01,
     disponivel: true
   },
   
@@ -213,7 +213,7 @@ const CARDAPIO = [
     imagem: "imagens/Granmaltine.png",
     descricao: "Massa aerada com chocolate ao leite e muito Ovomaltine Cremoso (Aprox. 30g Ovomaltine Cremoso, 90g Massa)",
     preco: 15.50,
-    estoque: 03,
+    estoque: 02,
     disponivel: true
   },
     
