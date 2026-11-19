@@ -60,7 +60,7 @@ const CARDAPIO = [
     descricao: "Massa de coloração Violeta com gotas de chocolate ao leite nobre, recheada com uma ganache de chocolate branco e um pouquinho de doce de abóbora.", 
     preco: 8.00,
     estoque: 01,
-    disponivel: true
+    disponivel: false
   },
   
   {
