@@ -355,7 +355,7 @@ const CARDAPIO = [
         titulo: "Adicionais",
         tipo: "unica",
         obrigatorio: false,
-        minimo: 1,
+        minimo: 0,
         maximo: 2,
         opcoes: [
           { id: "maisbolinha", nome: "Mais Bolinhas (35g)", preco: 3.00, disponivel: true }
