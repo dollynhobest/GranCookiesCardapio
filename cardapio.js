@@ -302,7 +302,7 @@ const CARDAPIO = [
     descricao: "Bebida no estilo oriental com bolinhas que estouram na boca, escolha sua base, seu sabor e suas bolinhas!",
     preco: 18.50,
     estoque: 20,
-    disponivel: false,
+    disponivel: true,
     gruposAdicionais: [
       {
         id: "base",
